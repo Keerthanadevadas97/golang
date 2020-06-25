@@ -9,7 +9,7 @@ func (a Animal) GetName() string {
 	return a.Name
 
 }
-func (a Animal) GetOwner() string {
+func (a Animal) OwnerName() string {
 	return a.ownerName
 
 }

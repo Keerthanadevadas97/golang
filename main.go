@@ -9,8 +9,7 @@ import (
 func main() {
 	k := animal.Animal{}
 	k.SetName("cat", "keerthana")
-	k.GetName()
 	fmt.Println(k.GetName())
-	fmt.Println(k.GetOwner())
+	fmt.Println(k.OwnerName())
 
 }
